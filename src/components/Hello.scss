@@ -1,0 +1,18 @@
+.Hello {
+    display: flex;
+    justify-content: center;
+  
+    .Hello--label {
+      flex-basis: 140px;
+    }
+  
+    .Hello--input__wrapper {
+      max-width: 620px;
+      flex-basis: 100%;
+      text-align: left;
+  
+      div {
+        text-align: left;
+      }
+    }
+  }

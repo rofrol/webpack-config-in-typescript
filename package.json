@@ -1,0 +1,31 @@
+{
+  "name": "webpack-config-in-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Roman Frołow <rofrol@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "webpack:build": "webpack  -- config webpack.config.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.31",
+    "@types/webpack": "^3.0.12",
+    "awesome-typescript-loader": "^3.2.3",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass-chokidar": "^0.0.3",
+    "sass-loader": "^6.0.6",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.18.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.5.3",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.7",
+    "@types/react-dom": "^15.5.5",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
