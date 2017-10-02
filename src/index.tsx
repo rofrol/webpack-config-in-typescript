@@ -6,6 +6,6 @@ import Hello from "./components/Hello";
 import './style.scss';
 
 ReactDOM.render(
-    <Hello />,
+    <Hello name="Roman" />,
     document.getElementById("root")
 );
